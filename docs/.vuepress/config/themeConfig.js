@@ -6,7 +6,7 @@ module.exports = {
   nav, // 顶部导航栏
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
   logo: 'https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20220720_132208.png', // 导航栏logo
-  repo: 'eryajf/vdoing-note', // 导航栏右侧生成Github链接
+  repo: 'u1805/note', // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   editLinks: true, // 启用编辑链接
@@ -19,7 +19,7 @@ module.exports = {
 
   category: false, // 是否打开分类功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含分类字段 2.页面中显示与分类相关的信息和模块 3.自动生成分类页面（在@pages文件夹）。如关闭，则反之。
   tag: false, // 是否打开标签功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含标签字段 2.页面中显示与标签相关的信息和模块 3.自动生成标签页面（在@pages文件夹）。如关闭，则反之。
-  // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
+  archive: true, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
   // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
   // titleBadge: false, // 文章标题前的图标是否显示，默认true
@@ -40,8 +40,8 @@ module.exports = {
   },
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
-    name: '二丫讲梵', // 必需
-    link: 'https://github.com/eryajf', // 可选的
+    name: 'dai0v0', // 必需
+    link: 'https://github.com/u1805', // 可选的
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
@@ -50,24 +50,19 @@ module.exports = {
       {
         iconClass: 'icon-github',
         title: 'GitHub',
-        link: 'https://github.com/eryajf',
+        link: 'https://github.com/u1805',
       },
       {
         iconClass: 'icon-youjian',
         title: '发邮件',
-        link: 'mailto:eryajf@163.com',
-      },
-      {
-        iconClass: 'icon-gitee',
-        title: 'Gitee',
-        link: 'https://gitee.com/eryajf',
+        link: 'mailto:dai@outlook.in',
       },
     ],
   },
   footer: {
     // 页脚信息
-    createYear: 2022, // 博客创建年份
+    createYear: 2023, // 博客创建年份
     copyrightInfo:
-      'Eryajf | <a href="https://github.com/eryajf/vdoing-note/blob/main/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+      'Dai0v0 | <a href="https://github.com/u1805/note/blob/main/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
   }
 }
