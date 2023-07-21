@@ -4,7 +4,7 @@ heroImage: https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20220720_132208
 tagline: 知道的越多，知道的越少
 heroText: Dai0v0's Blog
 actionText: 开始浏览 →
-actionLink: /pages/git/
+actionLink: /pages/curve_similarity/
 bannerBg: none 
 postList: simple
 features:
