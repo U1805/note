@@ -44,4 +44,13 @@ module.exports = [
       },
     },
   ],
+  [
+    'vuepress-plugin-mathjax',
+    {
+      target: 'svg',
+      macros: {
+        '*': '\\times',
+      },
+    },
+  ],
 ]

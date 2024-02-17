@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20220720_132208.png
+heroImage: https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220720_132208.png
 tagline: 知道的越多，知道的越少
 heroText: Dai0v0's Blog
 actionText: 开始浏览 →
